@@ -16,7 +16,7 @@ const Customer = mongoose.model(
     },
     phone: {
       type: String,
-      require: true,
+      required: true,
       minlength: 5,
       maxlength: 50,
     },
